@@ -1,0 +1,235 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+  font-family: roboto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+html{
+  position:relative;
+  min-height:100%;
+}
+
+.bar {
+  width: 584px;
+  height: 42px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 5px 8px 0 16px;
+  max-width: 584px;
+  -webkit-appearance: none;
+  text-align: left;
+
+  
+}
+.bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+ 
+}
+.form, .googled {
+  display: flex;
+  justify-content: center;
+}
+
+.google {
+  padding: 20px;
+  position: relative;
+  bottom: 14px;
+}
+.wrapper {
+  object-position: 50% 100%;
+  left: 50%;
+  padding-top: 13%; 
+  
+}
+.gmail {
+  display:inline-flex;
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+  justify-content: flex-end;
+  margin-right: 14px;
+  line-height: 24px;
+}
+.kek {
+  
+  height: 48px;
+  vertical-align: middle;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 13px;
+  padding-top: 18px;
+  padding-right: 18px;
+  color: rgba(0,0,0,0.87);
+  display: inline-flex;
+  line-height: 24px;
+  font-family: Arial, sans-serif;
+
+}
+
+.images {
+  display: inline-flex;
+  margin-right: 11px;
+  text-decoration: none;
+  padding-left: 1px;
+  color: rgba(0,0,0,0.87);
+  justify-content: flex-end;
+  line-height: 24px;
+}
+
+.flex{
+  font-family: arial;
+  padding-top: 18px;
+  width: 100%;
+  text-align:center;
+  font-family: arial,sans-serif;
+}
+
+.eeto {
+  background-color: #f8f9fa;
+  width: 129px;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 36px;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+  border: 1px solid #f8f8fa;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align:center;
+  font-family: arial,sans-serif;
+}
+.dont{
+  margin-bottom: 120px;
+  display: inline-block;
+  text-align: center;
+  line-height: 28px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 52px;
+  position: relative;
+  bottom: 15px;
+}
+.svenska{
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
+.asdf{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.suomi{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  background: #f2f2f2;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  text-align: left;
+}
+.yup {
+  display:flex;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+a.gogo {
+    color: #70757a;
+}
+
+.gogo{
+  white-space: nowrap;
+  color: #70757a;
+  background-color:#f2f2f2;
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+  display: block;
+
+}
+.jepulis {
+  padding: 0 15px;
+}
+.icon{
+  margin: 50% 0;
+  padding: 50% 0;
+}
+.material-icons {
+text-decoration: none;
+color: rgba(0,0,0,0.87);
+padding-left: 17px;
+padding-right: 20px;
+}
+.material-icon {
+  position: relative;
+  top: 8px;
+  right: 16px;
+  color: #9aa0a6;
+}
+a:hover{
+text-decoration: underline;
+}
+.gogo .jepulis {
+  color: #70757a; 
+}
+.right{
+  position: relative;
+  left: 1265px;
+}
+.avatar {
+  border-radius: 90px;
+  height: 32px;
+  width: 32px;
+  display:inline-flex;
+  position: relative;
+  bottom: 3px;
+}
+.github{
+  display:inline-flex;
+}
+textarea, input { outline: none; 
+}
+input{
+  text-align: start;
+}
+.bars{
+  width: 511  px;
+  height:32px;
+  position:relative;
+  bottom: 23px;
+  left:6px;
+  border: none;
+  font-size: 18px;
+}
+.voice{
+  position: relative;
+  height: 0.7%;
+  width: 0.7%;
+  bottom: 34px;
+  left: 278px;
+}
